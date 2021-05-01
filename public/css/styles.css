@@ -1,0 +1,63 @@
+/* Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+*/
+
+html{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+header{
+    background-color: #EAC926;
+}
+
+p{
+    font-size: 12px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+.precio{
+    font-size: 18px;
+}
+
+.descuento{
+    font-size: 16px;
+}
+
+.descripcion{
+    font-size: 16px;
+}
+
+#searchbar{
+    width: 150px;
+    height: 25px;
+    background-color: white;
+    background-position: auto;
+    margin: auto;
+    display: inline-flexbox;
+    border-radius: 3px;
+}
+
+.fa-search{
+    background-color:#ebebeb;
+    border-radius: 3px;
+}
+
+.fa-bars{
+    font-size: 20px;
+    background-color: #03264C;
+    background-size: 20px 20px;
+    margin: auto;
+}
+
+#searchtext{
+    text-align: center;
+    margin-top: 3px;
+}
