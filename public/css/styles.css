@@ -9,6 +9,7 @@ Verde: #39b54a;
 html{
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    background-color: #EAC926
 }
 
 header{
@@ -58,15 +59,16 @@ h3{
     margin: center;
 }
 
-.fa-bars{
+.burger-menu{
+    width: 22px;
     font-size: 20px;
     color: white;
     padding: 2px;
-    border-radius: 1px;
+    border-radius: 2px;
     background-color: #03264C;
     background-size: 20px 20px;
     margin: auto;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 #searchtext{
@@ -74,6 +76,11 @@ h3{
     margin-top: 3px;
 }
 
-.fa-hand-holding-usd{
-    display: inline
+.banner{
+    border-top: 10px solid #EAC926;
+    margin-top: 0px;
+}
+
+.product{
+    background-color: #ffffff;
 }
