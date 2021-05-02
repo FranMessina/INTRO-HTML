@@ -39,10 +39,62 @@
                 <li><a href="compras">Mis compras <i class="fas fa-shopping-basket"></i></a></li>
             </ul>
         </nav>
-
-      <!-- <img src="/img/img-home-banner.jpg" alt="home-banner" class="banner">
-
     </header>
+    <!-- Formulario -->
+
+    <form action="/crear-producto" method="POST" class="create-form">
+        <div class="control-formulario"> 
+            <label>Nombre del producto:</label>
+            <input type="text" name="productname" class="control">
+        </div>
+
+        <div class="control-formulario">
+            <label>Precio:</label>
+            <input type="number" name="price" placeholder="123.56" class="control">
+        </div>
+
+        <div class="control-formulario">
+            <label>Categoría:</label>
+            <select name="categoria" class="control">
+                <option value="hogar">Hogar</option>
+                <option value="electronica">Electronica</option>
+                <option value="indumentaria">Indumentaria</option>
+            </select>
+        </div>
+
+        <div class="control-formulario">
+            <label>Ciudad:</label>
+            <select name="categoria" class="control">
+                <option value="baires">Buenos Aires</option>
+                <option value="mdz">Mendoza</option>
+                <option value="ros">Rosario</option>
+            </select>
+        </div>
+
+        <div class="control-formulario">
+            <label>Descripción:</label>
+            <textarea name="descripcion" class="control"></textarea>
+        </div>
+
+        <div class="control-formulario">
+            <label>Esá en oferta?:</label>
+            <input type="radio" name="oferta?">
+        </div>
+
+        <button type="submit" class="boton-formulario">Guardar</button>
+        <button type="reset" class="boton-formulario">Borrar</button>
+
+    </form>
+
+      
+      
+      
+      
+      
+      
+      
+      
+        <!-- <img src="/img/img-home-banner.jpg" alt="home-banner" class="banner">
 
 
     <main>
@@ -132,6 +184,5 @@
         <p><strong>Copyright © 1999-2020 MercadoLiebre S.R.L.</strong></p>
 
     </footer> -->
-
 </body>
 </html>
