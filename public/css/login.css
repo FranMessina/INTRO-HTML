@@ -196,5 +196,11 @@ footer i {
 	}
 	footer {
 		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	footer div {
+		flex-basis: 33%;
 	}
 }
